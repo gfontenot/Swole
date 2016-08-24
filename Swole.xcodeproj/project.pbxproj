@@ -11,8 +11,6 @@
 		1DE43A2D2C2FAE49680791FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */; };
 		29053ACA880A6924444AE06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF80D03D51BC6617CC193BA /* Images.xcassets */; };
 		65D3FF15445C50F800B55D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B522F9ACAEE2E12633FAE73E /* Main.storyboard */; };
-		B4F9143C552BF7C0FBEA58B9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16C126825C9EB1DBA0F0AF33 /* Settings.bundle */; };
-		C7C3FDD732EF1C4A02B155D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6152ECC65857D031DFCF5AF8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +25,9 @@
 
 /* Begin PBXFileReference section */
 		0E70145FBD5C648E66EF5C8E /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16C126825C9EB1DBA0F0AF33 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		1EF80D03D51BC6617CC193BA /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		320B5402B6ADCCD89B7F6FC9 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		5A1E95AE096629CB9B690245 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6152ECC65857D031DFCF5AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		99AB8804CB615E2C3D97C94F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B522F9ACAEE2E12633FAE73E /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -43,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7C3FDD732EF1C4A02B155D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +92,6 @@
 		4FC3F24D88F4A4A7E4AD3F26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9ECF9FEB097380CA6953426B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,14 +130,6 @@
 			children = (
 			);
 			path = Protocols;
-			sourceTree = "<group>";
-		};
-		9ECF9FEB097380CA6953426B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6152ECC65857D031DFCF5AF8 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		9EFC1F72471A60AA9F2BDC45 /* Other-Sources */ = {
@@ -191,7 +177,6 @@
 				2C87962A4DB5AE6A8B374620 /* Storyboards */,
 				DE22419D87CB8DC45C42F56B /* Nibs */,
 				9EFC1F72471A60AA9F2BDC45 /* Other-Sources */,
-				16C126825C9EB1DBA0F0AF33 /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -305,7 +290,6 @@
 				29053ACA880A6924444AE06E /* Images.xcassets in Resources */,
 				65D3FF15445C50F800B55D71 /* Main.storyboard in Resources */,
 				1DE43A2D2C2FAE49680791FA /* LaunchScreen.xib in Resources */,
-				B4F9143C552BF7C0FBEA58B9 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

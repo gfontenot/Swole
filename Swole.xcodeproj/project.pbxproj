@@ -11,6 +11,11 @@
 		1DE43A2D2C2FAE49680791FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */; };
 		29053ACA880A6924444AE06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF80D03D51BC6617CC193BA /* Images.xcassets */; };
 		65D3FF15445C50F800B55D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B522F9ACAEE2E12633FAE73E /* Main.storyboard */; };
+		F8428BC31D6D5095004C449F /* Nimble.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8428BC41D6D5095004C449F /* Quick.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3C1D6D4A27005DD41D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8BB6D3A1D6D4A01005DD41D /* SampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB6D381D6D49FC005DD41D /* SampleSpec.swift */; };
+		F8BB6D3D1D6D4A27005DD41D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */; };
+		F8BB6D3E1D6D4A27005DD41D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BB6D3C1D6D4A27005DD41D /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +28,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F8428BC21D6D5086004C449F /* Copy test dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8428BC31D6D5095004C449F /* Nimble.framework in Copy test dependencies */,
+				F8428BC41D6D5095004C449F /* Quick.framework in Copy test dependencies */,
+			);
+			name = "Copy test dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0E70145FBD5C648E66EF5C8E /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF80D03D51BC6617CC193BA /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -32,6 +52,9 @@
 		AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B522F9ACAEE2E12633FAE73E /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B602DFC4A76E5FC883F2E19B /* Swole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BB6D381D6D49FC005DD41D /* SampleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSpec.swift; sourceTree = "<group>"; };
+		F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		F8BB6D3C1D6D4A27005DD41D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8BB6D3E1D6D4A27005DD41D /* Quick.framework in Frameworks */,
+				F8BB6D3D1D6D4A27005DD41D /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +117,7 @@
 		4FC3F24D88F4A4A7E4AD3F26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8428BC51D6D5121004C449F /* Test Dependencies */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +169,7 @@
 		AEAEC2C4AD281B03C427E9DF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F8BB6D381D6D49FC005DD41D /* SampleSpec.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -191,6 +218,15 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		F8428BC51D6D5121004C449F /* Test Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */,
+				F8BB6D3C1D6D4A27005DD41D /* Quick.framework */,
+			);
+			name = "Test Dependencies";
+			sourceTree = "<group>";
+		};
 		F92B9F7C90D6EA5643065224 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +271,7 @@
 				A36B90020B2CD51DB2160A67 /* Sources */,
 				CAF5229D0CC310B6F4DA7AC8 /* Frameworks */,
 				039F9F1DC87BCD58914D08D3 /* Resources */,
+				F8428BC21D6D5086004C449F /* Copy test dependencies */,
 			);
 			buildRules = (
 			);
@@ -361,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8BB6D3A1D6D4A01005DD41D /* SampleSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,11 +481,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swole.app/Swole";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Tests/Resources/UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonfontenot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -536,11 +574,11 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swole.app/Swole";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Tests/Resources/UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonfontenot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;

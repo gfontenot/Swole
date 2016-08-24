@@ -10,6 +10,10 @@
 		0916091038786480DDB60623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70145FBD5C648E66EF5C8E /* AppDelegate.swift */; };
 		1DE43A2D2C2FAE49680791FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */; };
 		29053ACA880A6924444AE06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF80D03D51BC6617CC193BA /* Images.xcassets */; };
+		F81A1ED41D6E04D30012DBCF /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A1ED31D6E04D30012DBCF /* Workout.swift */; };
+		F81A1ED71D6E04DA0012DBCF /* ApplicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A1ED51D6E04DA0012DBCF /* ApplicationViewModel.swift */; };
+		F81A1ED81D6E04DA0012DBCF /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A1ED61D6E04DA0012DBCF /* CollectionViewModel.swift */; };
+		F81A1EDA1D6E04DF0012DBCF /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A1ED91D6E04DF0012DBCF /* WorkoutsViewController.swift */; };
 		F8428BC31D6D5095004C449F /* Nimble.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8428BC41D6D5095004C449F /* Quick.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3C1D6D4A27005DD41D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F89C8AE41D6DE7AF00D01961 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */; };
@@ -53,6 +57,10 @@
 		99AB8804CB615E2C3D97C94F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B602DFC4A76E5FC883F2E19B /* Swole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81A1ED31D6E04D30012DBCF /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		F81A1ED51D6E04DA0012DBCF /* ApplicationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewModel.swift; sourceTree = "<group>"; };
+		F81A1ED61D6E04DA0012DBCF /* CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		F81A1ED91D6E04DF0012DBCF /* WorkoutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
 		F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		F89C8AE51D6DEB1600D01961 /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
 		F89C8AE61D6DEB1600D01961 /* ApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +99,7 @@
 		1C1DB052301C72C33C4CCDC9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F81A1ED31D6E04D30012DBCF /* Workout.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,6 +114,7 @@
 		3E512ED1AC04A2A40F8FEA51 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F81A1ED91D6E04DF0012DBCF /* WorkoutsViewController.swift */,
 				F89C8AE51D6DEB1600D01961 /* ApplicationController.swift */,
 				F89C8AE61D6DEB1600D01961 /* ApplicationViewController.swift */,
 				0E70145FBD5C648E66EF5C8E /* AppDelegate.swift */,
@@ -184,6 +194,8 @@
 		D30601603E3BF73B1426840B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F81A1ED51D6E04DA0012DBCF /* ApplicationViewModel.swift */,
+				F81A1ED61D6E04DA0012DBCF /* CollectionViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -388,8 +400,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89C8AE81D6DEB1600D01961 /* ApplicationViewController.swift in Sources */,
+				F81A1ED71D6E04DA0012DBCF /* ApplicationViewModel.swift in Sources */,
+				F81A1ED81D6E04DA0012DBCF /* CollectionViewModel.swift in Sources */,
 				0916091038786480DDB60623 /* AppDelegate.swift in Sources */,
+				F81A1EDA1D6E04DF0012DBCF /* WorkoutsViewController.swift in Sources */,
 				F89C8AE71D6DEB1600D01961 /* ApplicationController.swift in Sources */,
+				F81A1ED41D6E04D30012DBCF /* Workout.swift in Sources */,
 				F89C8AE41D6DE7AF00D01961 /* Dictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

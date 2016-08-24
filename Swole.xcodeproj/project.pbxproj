@@ -128,9 +128,9 @@
 				4FC3F24D88F4A4A7E4AD3F26 /* Frameworks */,
 				6154142A0AAA55636DFE9715 /* Products */,
 			);
-			indentWidth = 4;
+			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 4;
+			tabWidth = 2;
 			usesTabs = 0;
 		};
 		6154142A0AAA55636DFE9715 /* Products */ = {

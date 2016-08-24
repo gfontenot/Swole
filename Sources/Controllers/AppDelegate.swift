@@ -21,7 +21,7 @@ extension AppDelegate: UIApplicationDelegate {
 private extension AppDelegate {
   func createWindow() -> UIWindow {
     let window = UIWindow(frame: UIScreen.main.bounds)
-    window.backgroundColor = UIColor.blue
+    window.backgroundColor = UIColor.white
     window.rootViewController = ApplicationViewController(controller: applicationController)
     return window
   }

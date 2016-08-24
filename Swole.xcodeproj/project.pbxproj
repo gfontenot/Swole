@@ -12,6 +12,7 @@
 		29053ACA880A6924444AE06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF80D03D51BC6617CC193BA /* Images.xcassets */; };
 		F8428BC31D6D5095004C449F /* Nimble.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8428BC41D6D5095004C449F /* Quick.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3C1D6D4A27005DD41D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F89C8AE41D6DE7AF00D01961 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */; };
 		F8BB6D3A1D6D4A01005DD41D /* SampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB6D381D6D49FC005DD41D /* SampleSpec.swift */; };
 		F8BB6D3D1D6D4A27005DD41D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */; };
 		F8BB6D3E1D6D4A27005DD41D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BB6D3C1D6D4A27005DD41D /* Quick.framework */; };
@@ -50,6 +51,7 @@
 		99AB8804CB615E2C3D97C94F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC836B86FBDC9EA4DC586C10 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B602DFC4A76E5FC883F2E19B /* Swole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		F8BB6D381D6D49FC005DD41D /* SampleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSpec.swift; sourceTree = "<group>"; };
 		F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F8BB6D3C1D6D4A27005DD41D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		80614F4DBA00CEAB0EBECA60 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0916091038786480DDB60623 /* AppDelegate.swift in Sources */,
+				F89C8AE41D6DE7AF00D01961 /* Dictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

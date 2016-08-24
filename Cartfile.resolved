@@ -1,2 +1,2 @@
-github "Quick/Nimble" "v3.0.0"
-github "Quick/Quick" "v0.8.0"
+github "norio-nomura/Nimble" "512fd29fccd496839defd9f99abeb3e9c9feff98"
+github "norio-nomura/Quick" "0e932c450a1ae1e6df46985651b06574e0567fe1"

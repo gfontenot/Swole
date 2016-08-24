@@ -99,7 +99,7 @@
 		5D2368BFF6957A50366EFE5C = {
 			isa = PBXGroup;
 			children = (
-				F92B9F7C90D6EA5643065224 /* Swole */,
+				F92B9F7C90D6EA5643065224 /* Sources */,
 				EC0FFE53CB144996B507145E /* UnitTests */,
 				4FC3F24D88F4A4A7E4AD3F26 /* Frameworks */,
 				6154142A0AAA55636DFE9715 /* Products */,
@@ -191,7 +191,7 @@
 			path = UnitTests;
 			sourceTree = "<group>";
 		};
-		F92B9F7C90D6EA5643065224 /* Swole */ = {
+		F92B9F7C90D6EA5643065224 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				80614F4DBA00CEAB0EBECA60 /* Extensions */,
@@ -202,7 +202,7 @@
 				0E9C29730741FEBE4352DCF7 /* Views */,
 				E5C9123F860061A9F1305941 /* Resources */,
 			);
-			path = Swole;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,7 +502,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "Swole/Resources/Other-Sources/Info.plist";
+				INFOPLIST_FILE = "Sources/Resources/Other-Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonfontenot.${PRODUCT_NAME:rfc1034identifier}";
@@ -537,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Swole/Resources/Other-Sources/Info.plist";
+				INFOPLIST_FILE = "Sources/Resources/Other-Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonfontenot.${PRODUCT_NAME:rfc1034identifier}";

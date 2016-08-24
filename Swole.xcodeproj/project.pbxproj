@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F92B9F7C90D6EA5643065224 /* Sources */,
-				EC0FFE53CB144996B507145E /* UnitTests */,
+				EC0FFE53CB144996B507145E /* Tests */,
 				4FC3F24D88F4A4A7E4AD3F26 /* Frameworks */,
 				6154142A0AAA55636DFE9715 /* Products */,
 			);
@@ -181,14 +181,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		EC0FFE53CB144996B507145E /* UnitTests */ = {
+		EC0FFE53CB144996B507145E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D123744C4B4F5A8D596A3FD0 /* Resources */,
 				2340142A2302EBFD1B7FAFF5 /* Helpers */,
 				AEAEC2C4AD281B03C427E9DF /* Tests */,
 			);
-			path = UnitTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		F92B9F7C90D6EA5643065224 /* Sources */ = {
@@ -447,7 +447,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				INFOPLIST_FILE = "Tests/Resources/UnitTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonfontenot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -540,7 +540,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				INFOPLIST_FILE = "Tests/Resources/UnitTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonfontenot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;

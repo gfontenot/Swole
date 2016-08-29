@@ -11,19 +11,10 @@ extension AppDelegate: UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = .none) -> Bool {
     if currentlyTesting() { return true }
 
-    window = createWindow()
+    window = ApplicationWindow(controller: applicationController)
     window?.makeKeyAndVisible()
 
     return true
-  }
-}
-
-private extension AppDelegate {
-  func createWindow() -> UIWindow {
-    let window = UIWindow(frame: UIScreen.main.bounds)
-    window.backgroundColor = UIColor.white
-    window.rootViewController = ApplicationViewController(controller: applicationController)
-    return window
   }
 }
 

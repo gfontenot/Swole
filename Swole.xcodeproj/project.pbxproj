@@ -16,6 +16,7 @@
 		F81A1EDA1D6E04DF0012DBCF /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A1ED91D6E04DF0012DBCF /* WorkoutsViewController.swift */; };
 		F8428BC31D6D5095004C449F /* Nimble.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3B1D6D4A27005DD41D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8428BC41D6D5095004C449F /* Quick.framework in Copy test dependencies */ = {isa = PBXBuildFile; fileRef = F8BB6D3C1D6D4A27005DD41D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F84EE1011D74B55D003C0432 /* ApplicationWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EE1001D74B55D003C0432 /* ApplicationWindow.swift */; };
 		F89C8AE41D6DE7AF00D01961 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */; };
 		F89C8AE71D6DEB1600D01961 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C8AE51D6DEB1600D01961 /* ApplicationController.swift */; };
 		F89C8AE81D6DEB1600D01961 /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C8AE61D6DEB1600D01961 /* ApplicationViewController.swift */; };
@@ -61,6 +62,7 @@
 		F81A1ED51D6E04DA0012DBCF /* ApplicationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewModel.swift; sourceTree = "<group>"; };
 		F81A1ED61D6E04DA0012DBCF /* CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
 		F81A1ED91D6E04DF0012DBCF /* WorkoutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+		F84EE1001D74B55D003C0432 /* ApplicationWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationWindow.swift; sourceTree = "<group>"; };
 		F89C8AE31D6DE7AF00D01961 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		F89C8AE51D6DEB1600D01961 /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
 		F89C8AE61D6DEB1600D01961 /* ApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		0E9C29730741FEBE4352DCF7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F84EE1001D74B55D003C0432 /* ApplicationWindow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89C8AE81D6DEB1600D01961 /* ApplicationViewController.swift in Sources */,
+				F84EE1011D74B55D003C0432 /* ApplicationWindow.swift in Sources */,
 				F81A1ED71D6E04DA0012DBCF /* ApplicationViewModel.swift in Sources */,
 				F81A1ED81D6E04DA0012DBCF /* CollectionViewModel.swift in Sources */,
 				0916091038786480DDB60623 /* AppDelegate.swift in Sources */,
